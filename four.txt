@@ -1,2 +1,3 @@
 created in working directory
 changes from remote
+checkout git pull = fetch + merge
