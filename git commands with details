@@ -1,0 +1,58 @@
+# gitone
+
+**To initialize git -**
+git init
+
+**To get files from github - **
+git clone https://github.com/MaynulIslam/gitone.git
+
+**After edit any file, to check the status -**
+git status
+
+**To make all the files in the stage from working directory -**
+git add --all
+
+**To make everything again in working directory from stage -**
+git reset
+git reset --hard
+
+**To delete a file -** 
+git rm two.txt
+
+**To delete the file forcefully -**
+git rm two.txt -f
+
+**when everything in stage then commit(local repository) -**
+git commit -m "**Write here about the changes in files**"
+
+**To go back from commit - **
+git reset HEAD~
+
+**to show the branched in git -** 
+git branch
+
+**to add a new branch- **
+git branch new branch
+
+**to switched to another branch -** 
+git checkout new branch
+
+**to marge two branches -**
+git merge branch name
+
+t**o make everything in remote(github) -**
+git push origin
+
+**to push new branches in remote -**
+git push origin branchName
+
+**to get updated data from remote -**
+git fetch
+
+**then, to see the remote changes - **
+git merge
+
+**to pull branch data from remote - **
+git pull
+
+**git pull means (fetch + merge)**
